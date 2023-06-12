@@ -1,0 +1,156 @@
+[
+	{
+		"id": 1,
+		"title": "Puños wirtz",
+		"description": "Puños amarillos cross",
+		"code": "puñ01",
+		"price": 5500,
+		"status": true,
+		"stock": 50,
+		"category": "PUÑOS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 2,
+		"title": "Puños wirtz",
+		"description": "Puños verdes pesta",
+		"code": "puñ02",
+		"price": 5500,
+		"status": true,
+		"stock": 50,
+		"category": "PUÑOS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 3,
+		"title": "Puños wirtz",
+		"description": "Puños marrones cafe racer",
+		"code": "puñ03",
+		"price": 5500,
+		"status": true,
+		"stock": 50,
+		"category": "PUÑOS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 4,
+		"title": "Puños wirtz",
+		"description": "Puños negros custom",
+		"code": "puñ04",
+		"price": 5500,
+		"status": true,
+		"stock": 50,
+		"category": "PUÑOS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 5,
+		"title": "ANTIPARRAS WIRTZ",
+		"description": "ANTIPARRAS WIRTZ CROSS VERDE",
+		"code": "antp01",
+		"price": 15500,
+		"status": true,
+		"stock": 20,
+		"category": "ANTIPARRAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 6,
+		"title": "ANTIPARRAS WIRTZ",
+		"description": "ANTIPARRAS WIRTZ CROSS NARANJA",
+		"code": "antp03",
+		"price": 15500,
+		"status": true,
+		"stock": 20,
+		"category": "ANTIPARRAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 7,
+		"title": "ANTIPARRAS WIRTZ",
+		"description": "ANTIPARRAS WIRTZ CROSS ROJA",
+		"code": "antp02",
+		"price": 15500,
+		"status": true,
+		"stock": 20,
+		"category": "ANTIPARRAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 8,
+		"title": "ANTIPARRAS WIRTZ",
+		"description": "ANTIPARRAS WIRTZ CROSS AMARILLA",
+		"code": "antp04",
+		"price": 15500,
+		"status": true,
+		"stock": 20,
+		"category": "ANTIPARRAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 9,
+		"title": "ANTIPARRAS WIRTZ",
+		"description": "ANTIPARRAS WIRTZ CROSS FUCCIA",
+		"code": "antp05",
+		"price": 15500,
+		"status": true,
+		"stock": 20,
+		"category": "ANTIPARRAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 10,
+		"title": "PECHERA WIRTZ",
+		"description": "PECHERA WIRTZ ROJA",
+		"code": "pech01",
+		"price": 12500,
+		"status": true,
+		"stock": 10,
+		"category": "PECHERAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 11,
+		"title": "PECHERA WIRTZ",
+		"description": "PECHERA WIRTZ AZOL",
+		"code": "pech02",
+		"price": 12500,
+		"status": true,
+		"stock": 10,
+		"category": "PECHERAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 12,
+		"title": "PECHERA WIRTZ",
+		"description": "PECHERA WIRTZ VERDE",
+		"code": "pech03",
+		"price": 12500,
+		"status": true,
+		"stock": 10,
+		"category": "PECHERAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 13,
+		"title": "PECHERA",
+		"description": "PECHERA WIRTZ VIOLETA",
+		"code": "pech04",
+		"price": 12500,
+		"status": true,
+		"stock": 10,
+		"category": "PECHERAS",
+		"thumbnail": "Sin imagen"
+	},
+	{
+		"id": 14,
+		"title": "PECHERA",
+		"description": "PECHERA WIRTZ tornazol",
+		"code": "pech05",
+		"price": 22500,
+		"status": true,
+		"stock": 10,
+		"category": "PECHERAS",
+		"thumbnail": "imagen"
+	}
+]

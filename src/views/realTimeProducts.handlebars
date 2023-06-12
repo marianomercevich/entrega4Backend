@@ -1,0 +1,41 @@
+<h1>Realtime roductos</h1>
+<br>
+<hr />
+<form id="createForm">
+    <div class="m-2">Título: <input type="text" id="title"></div>
+    <div class="m-2">Descripción: <input type="text" id="description"></div>
+    <div class="m-2">Precio: <input type="text" id="price"></div>
+    <div class="m-2">Código: <input type="text" id="code"></div>
+    <div class="m-2">Stock: <input type="text" id="stock"></div>
+    <div class="m-2">Categoría: <input type="text" id="category"></div>
+</form>
+<button id="createBtn" class="btn btn-primary" >Crear Producto</button>
+<hr />
+<table id="realProductsTable" class="table table-striped">
+    <thead>
+        <tr>
+            <td>Producto</td>
+            <td>Descripción</td>
+            <td>Precio</td>
+            <td>Código</td>
+            <td>Stock</td>
+            <td>Categoría</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each products}}
+        <tr>
+            <td><button class="btn btn-danger" onclick="deleteProduct({{this.id}})" >Eliminar</button>
+            <td>{{this.title}}</td>
+            <td>{{this.description}}</td>
+            <td>{{this.price}}</td>
+            <td>{{this.code}}</td>
+            <td>{{this.stock}}</td>
+            <td>{{this.category}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/src/public/js/index.js"></script>
