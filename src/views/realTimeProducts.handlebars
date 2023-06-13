@@ -1,19 +1,22 @@
-<h1>Realtime roductos</h1>
+<h1>Real time Productos</h1>
 <br>
 <hr />
-<form id="createForm">
-    <div class="m-2">Título: <input type="text" id="title"></div>
-    <div class="m-2">Descripción: <input type="text" id="description"></div>
-    <div class="m-2">Precio: <input type="text" id="price"></div>
-    <div class="m-2">Código: <input type="text" id="code"></div>
-    <div class="m-2">Stock: <input type="text" id="stock"></div>
-    <div class="m-2">Categoría: <input type="text" id="category"></div>
-</form>
-<button id="createBtn" class="btn btn-primary" >Crear Producto</button>
+    <div class="container flex">
+    <form id="createForm">
+        <div class="m-3">Título: <input type="text" id="title"></div>
+        <div class="m-3">Descripción: <input type="text" id="description"></div>
+        <div class="m-3">Precio: <input type="text" id="price"></div>
+        <div class="m-3">Código: <input type="text" id="code"></div>
+        <div class="m-3">Stock: <input type="text" id="stock"></div>
+        <div class="m-3">Categoría: <input type="text" id="category"></div>
+        <button id="createBtn" class="btn btn-primary">Crear Producto</button>
+    </form>
+</div>
 <hr />
-<table id="realProductsTable" class="table table-striped">
+<table id="realProductTable" class="table table-dark table-striped">
     <thead>
         <tr>
+            <td></td>
             <td>Producto</td>
             <td>Descripción</td>
             <td>Precio</td>
@@ -25,7 +28,7 @@
     <tbody>
         {{#each products}}
         <tr>
-            <td><button class="btn btn-danger" onclick="deleteProduct({{this.id}})" >Eliminar</button>
+            <td><button class="btn btn-danger" onclick="deleteProduct({{this.id}})">Eliminar</button></td>
             <td>{{this.title}}</td>
             <td>{{this.description}}</td>
             <td>{{this.price}}</td>

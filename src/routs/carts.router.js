@@ -4,8 +4,6 @@ import { CartManager } from "../controllers/CartManager.js";
 const router = Router();
 const cartManager = new CartManager("./src/assets/carts.json");
 
-
-
 router.get('/', async (req, res) => {
   const limit = req.query.limit;
   let carts = await cartManager.getCarts();
